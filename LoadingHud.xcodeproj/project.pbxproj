@@ -14,6 +14,8 @@
 		3CED33A61BD5DB0D006C8A4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CED33A51BD5DB0D006C8A4A /* Images.xcassets */; };
 		3CED33A91BD5DB0D006C8A4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CED33A71BD5DB0D006C8A4A /* LaunchScreen.xib */; };
 		3CED33B51BD5DB0D006C8A4A /* LoadingHudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CED33B41BD5DB0D006C8A4A /* LoadingHudTests.m */; };
+		3CED33C61BD5DE93006C8A4A /* LoadingHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CED33C51BD5DE93006C8A4A /* LoadingHudView.m */; };
+		3CED33C81BD638C4006C8A4A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CED33C71BD638C4006C8A4A /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		3CED33AE1BD5DB0D006C8A4A /* LoadingHudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingHudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CED33B31BD5DB0D006C8A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CED33B41BD5DB0D006C8A4A /* LoadingHudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingHudTests.m; sourceTree = "<group>"; };
+		3CED33C41BD5DE93006C8A4A /* LoadingHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingHudView.h; sourceTree = "<group>"; };
+		3CED33C51BD5DE93006C8A4A /* LoadingHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingHudView.m; sourceTree = "<group>"; };
+		3CED33C71BD638C4006C8A4A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +88,11 @@
 			children = (
 				3CED339C1BD5DB0D006C8A4A /* AppDelegate.h */,
 				3CED339D1BD5DB0D006C8A4A /* AppDelegate.m */,
+				3CED33C41BD5DE93006C8A4A /* LoadingHudView.h */,
+				3CED33C51BD5DE93006C8A4A /* LoadingHudView.m */,
 				3CED339F1BD5DB0D006C8A4A /* ViewController.h */,
 				3CED33A01BD5DB0D006C8A4A /* ViewController.m */,
+				3CED33C71BD638C4006C8A4A /* 1.png */,
 				3CED33A21BD5DB0D006C8A4A /* Main.storyboard */,
 				3CED33A51BD5DB0D006C8A4A /* Images.xcassets */,
 				3CED33A71BD5DB0D006C8A4A /* LaunchScreen.xib */,
@@ -201,6 +209,7 @@
 			files = (
 				3CED33A41BD5DB0D006C8A4A /* Main.storyboard in Resources */,
 				3CED33A91BD5DB0D006C8A4A /* LaunchScreen.xib in Resources */,
+				3CED33C81BD638C4006C8A4A /* 1.png in Resources */,
 				3CED33A61BD5DB0D006C8A4A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CED33A11BD5DB0D006C8A4A /* ViewController.m in Sources */,
+				3CED33C61BD5DE93006C8A4A /* LoadingHudView.m in Sources */,
 				3CED339E1BD5DB0D006C8A4A /* AppDelegate.m in Sources */,
 				3CED339B1BD5DB0D006C8A4A /* main.m in Sources */,
 			);

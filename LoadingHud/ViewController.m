@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LoadingHudView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+//    self.view.backgroundColor = [UIColor redColor];
+//    UIVisualEffectView *bgView = [[UIVisualEffectView alloc] initWithEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleLight]];
+//    bgView.frame = CGRectMake(100, 100, 100, 100);
+//    bgView.layer.cornerRadius = 10;
+//    bgView.clipsToBounds = YES;
+//    [self.view addSubview:bgView];
+    LoadingHudView *loadingHudView = [[LoadingHudView alloc]initWithFrame:CGRectMake(120, 120, 120, 120)];
+    [self.view addSubview:loadingHudView];
+    [loadingHudView showHud];
+  
 }
 
 - (void)didReceiveMemoryWarning {
